@@ -1,0 +1,1462 @@
+#Códigos
+code=('888555555123888','333333555584333','222333555124000','000111555874555','111888555654777',
+      '111333555123333','555555555123888','888333555584333','111333555124000','333888555584333',
+      '555888555123000','111888555123555','888000555845333','000111555874000','111333555123555')
+#Região
+centro=111
+nordeste=333
+norte=555
+sudeste=888
+sul=000
+#Produtos
+joias=000
+livros=111
+eletronicos=333
+bebidas=555
+brinquedos=888
+#Programa - Identificador de Região (Origem):
+p1 =int((code[0][0:3]))
+p2 =int((code[1][0:3]))
+p3 =int((code[2][0:3]))
+p4 =int((code[3][0:3]))
+p5 =int((code[4][0:3]))
+p6 =int((code[5][0:3]))
+p7 =int((code[6][0:3]))
+p8 =int((code[7][0:3]))
+p9 =int((code[8][0:3]))
+p10=int((code[9][0:3]))
+p11=int((code[10][0:3]))
+p12=int((code[11][0:3]))
+p13=int((code[12][0:3]))
+p14=int((code[13][0:3]))
+p15=int((code[14][0:3]))
+reg1=0
+reg2=0
+reg3=0
+reg4=0
+reg5=0
+reg6=0
+reg7=0
+reg8=0
+reg9=0
+reg10=0
+reg11=0
+reg12=0
+reg13=0
+reg14=0
+reg15=0
+cod1='Válido'
+cod2='Válido'
+cod3='Válido'
+cod4='Válido'
+cod5='Válido'
+cod6='Válido'
+cod7='Válido'
+cod8='Válido'
+cod9='Válido'
+cod10='Válido'
+cod11='Válido'
+cod12='Válido'
+cod13='Válido'
+cod14='Válido'
+cod15='Válido'
+#Pacote 1
+if (p1==centro):
+    reg1='Centro-Oeste'
+elif (p1==nordeste):
+    reg1='Nordeste'
+elif (p1==norte):
+    reg1='Norte'
+elif (p1==sudeste):
+    reg1='Sudeste'
+elif (p1==sul):
+    reg1='Sul'
+else:
+    cod1='Inválido'
+#Pacote 2
+if (p2==centro):
+    reg2='Centro-Oeste'
+elif (p2==nordeste):
+    reg2='Nordeste'
+elif (p2==norte):
+    reg2='Norte'
+elif (p2==sudeste):
+    reg2='Sudeste'
+elif (p2==sul):
+    reg2='Sul'
+else:
+    cod2='Inválido'
+#Pacote 3
+if (p3==centro):
+    reg3='Centro-Oeste'
+elif (p3==nordeste):
+    reg3='Nordeste'
+elif (p3==norte):
+    reg3='Norte'
+elif (p3==sudeste):
+    reg3='Sudeste'
+elif (p3==sul):
+    reg3='Sul'
+else:
+    cod3='Inválido'
+#Pacote 4
+if (p4==centro):
+    reg4='Centro-Oeste'
+elif (p4==nordeste):
+    reg4='Nordeste'
+elif (p4==norte):
+    reg4='Norte'
+elif (p4==sudeste):
+    reg4='Sudeste'
+elif (p4==sul):
+    reg4='Sul'
+else:
+    cod4='Inválido'
+#Pacote 5
+if (p5==centro):
+    reg5='Centro-Oeste'
+elif (p5==nordeste):
+    reg5='Nordeste'
+elif (p5==norte):
+    reg5='Norte'
+elif (p5==sudeste):
+    reg5='Sudeste'
+elif (p5==sul):
+    reg5='Sul'
+else:
+    cod5='Inválido'
+#Pacote 6
+if (p6==centro):
+    reg6='Centro-Oeste'
+elif (p6==nordeste):
+    reg6='Nordeste'
+elif (p6==norte):
+    reg6='Norte'
+elif (p6==sudeste):
+    reg6='Sudeste'
+elif (p6==sul):
+    reg6='Sul'
+else:
+    cod6='Inválido'
+#Pacote 7
+if (p7==centro):
+    reg7='Centro-Oeste'
+elif (p7==nordeste):
+    reg7='Nordeste'
+elif (p7==norte):
+    reg7='Norte'
+elif (p7==sudeste):
+    reg7='Sudeste'
+elif (p7==sul):
+    reg7='Sul'
+else:
+    cod7='Inválido'
+#Pacote 8
+if (p8==centro):
+    reg8='Centro-Oeste'
+elif (p8==nordeste):
+    reg8='Nordeste'
+elif (p8==norte):
+    reg8='Norte'
+elif (p8==sudeste):
+    reg8='Sudeste'
+elif (p8==sul):
+    reg8='Sul'
+else:
+    cod8='Inválido'
+#Pacote 9
+if (p9==centro):
+    reg9='Centro-Oeste'
+elif (p9==nordeste):
+    reg9='Nordeste'
+elif (p9==norte):
+    reg9='Norte'
+elif (p9==sudeste):
+    reg9='Sudeste'
+elif (p9==sul):
+    reg9='Sul'
+else:
+    cod9='Inválido'
+#Pacote 10
+if (p10==centro):
+    reg10='Centro-Oeste'
+elif (p10==nordeste):
+    reg10='Nordeste'
+elif (p10==norte):
+    reg10='Norte'
+elif (p10==sudeste):
+    reg10='Sudeste'
+elif (p10==sul):
+    reg10='Sul'
+else:
+    cod10='Inválido'
+#Pacote 11
+if (p11==centro):
+    reg11='Centro-Oeste'
+elif (p11==nordeste):
+    reg11='Nordeste'
+elif (p11==norte):
+    reg11='Norte'
+elif (p11==sudeste):
+    reg11='Sudeste'
+elif (p11==sul):
+    reg11='Sul'
+else:
+    cod11='Inválido'
+#Pacote 12
+if (p12==centro):
+    reg12='Centro-Oeste'
+elif (p12==nordeste):
+    reg12='Nordeste'
+elif (p12==norte):
+    reg12='Norte'
+elif (p12==sudeste):
+    reg12='Sudeste'
+elif (p12==sul):
+    reg12='Sul'
+else:
+    cod12='Inválido'
+#Pacote 13
+if (p13==centro):
+    reg13='Centro-Oeste'
+elif (p13==nordeste):
+    reg13='Nordeste'
+elif (p13==norte):
+    reg13='Norte'
+elif (p13==sudeste):
+    reg13='Sudeste'
+elif (p13==sul):
+    reg13='Sul'
+else:
+    cod13='Inválido'
+#Pacote 14
+if (p14==centro):
+    reg14='Centro-Oeste'
+elif (p14==nordeste):
+    reg14='Nordeste'
+elif (p14==norte):
+    reg14='Norte'
+elif (p14==sudeste):
+    reg14='Sudeste'
+elif (p14==sul):
+    reg14='Sul'
+else:
+    cod14='Inválido'
+#Pacote 15
+if (p15==centro):
+    reg15='Centro-Oeste'
+elif (p15==nordeste):
+    reg15='Nordeste'
+elif (p15==norte):
+    reg15='Norte'
+elif (p15==sudeste):
+    reg15='Sudeste'
+elif (p15==sul):
+    reg15='Sul'
+else:
+    cod15='Inválido'
+#Programa - Identificador de Região (Destino):
+d1 =int((code[0][3:6]))
+d2 =int((code[1][3:6]))
+d3 =int((code[2][3:6]))
+d4 =int((code[3][3:6]))
+d5 =int((code[4][3:6]))
+d6 =int((code[5][3:6]))
+d7 =int((code[6][3:6]))
+d8 =int((code[7][3:6]))
+d9 =int((code[8][3:6]))
+d10=int((code[9][3:6]))
+d11=int((code[10][3:6]))
+d12=int((code[11][3:6]))
+d13=int((code[12][3:6]))
+d14=int((code[13][3:6]))
+d15=int((code[14][3:6]))
+#Pacote 1
+if (d1==centro):
+    red1='Centro-Oeste'
+elif (d1==nordeste):
+    red1='Nordeste'
+elif (d1==norte):
+    red1='Norte'
+elif (d1==sudeste):
+    red1='Sudeste'
+elif (d1==sul):
+    red1='Sul'
+else:
+    cod1='Inválido'
+#Pacote 2
+if (d2==centro):
+    red2='Centro-Oeste'
+elif (d2==nordeste):
+    red2='Nordeste'
+elif (d2==norte):
+    red2='Norte'
+elif (d2==sudeste):
+    red2='Sudeste'
+elif (d2==sul):
+    red2='Sul'
+else:
+    cod2='Inválido'
+#Pacote 3
+if (d3==centro):
+    red3='Centro-Oeste'
+elif (d3==nordeste):
+    red3='Nordeste'
+elif (d3==norte):
+    red3='Norte'
+elif (d3==sudeste):
+    red3='Sudeste'
+elif (d3==sul):
+    red3='Sul'
+else:
+    cod3='inválido'
+#Pacote 4
+if (d4==centro):
+    red4='Centro-Oeste'
+elif (d4==nordeste):
+    red4='Nordeste'
+elif (d4==norte):
+    red4='Norte'
+elif (d4==sudeste):
+    red4='Sudeste'
+elif (d4==sul):
+    red4='Sul'
+else:
+    cod4='Inválido'
+#Pacote 5
+if (d5==centro):
+    red5='Centro-Oeste'
+elif (d5==nordeste):
+    red5='Nordeste'
+elif (d5==norte):
+    red5='Norte'
+elif (d5==sudeste):
+    red5='Sudeste'
+elif (d5==sul):
+    red5='Sul'
+else:
+    cod5='Inválido'
+#Pacote 6
+if (d6==centro):
+    red6='Centro-Oeste'
+elif (d6==nordeste):
+    red6='Nordeste'
+elif (d6==norte):
+    red6='Norte'
+elif (d6==sudeste):
+    red6='Sudeste'
+elif (d6==sul):
+    red6='Sul'
+else:
+    cod6='Inválido'
+#Pacote 7
+if (d7==centro):
+    red7='Centro-Oeste'
+elif (d7==nordeste):
+    red7='Nordeste'
+elif (d7==norte):
+    red7='Norte'
+elif (d7==sudeste):
+    red7='Sudeste'
+elif (d7==sul):
+    red7='Sul'
+else:
+    cod7='Inválido'
+#Pacote 8
+if (d8==centro):
+    red8='Centro-Oeste'
+elif (d8==nordeste):
+    red8='Nordeste'
+elif (d8==norte):
+    red8='Norte'
+elif (d8==sudeste):
+    red8='Sudeste'
+elif (d8==sul):
+    red8='Sul'
+else:
+    cod8='Inválido'
+#Pacote 9
+if (d9==centro):
+    red9='Centro-Oeste'
+elif (d9==nordeste):
+    red9='Nordeste'
+elif (d9==norte):
+    red9='Norte'
+elif (d9==sudeste):
+    red9='Sudeste'
+elif (d9==sul):
+    red9='Sul'
+else:
+    cod9='Inválido'
+#Pacote 10
+if (d10==centro):
+    red10='Centro-Oeste'
+elif (d10==nordeste):
+    red10='Nordeste'
+elif (d10==norte):
+    red10='Norte'
+elif (d10==sudeste):
+    red10='Sudeste'
+elif (d10==sul):
+    red10='Sul'
+else:
+    cod10='Inválido'
+#Pacote 11
+if (d11==centro):
+    red11='Centro-Oeste'
+elif (d11==nordeste):
+    red11='Nordeste'
+elif (d11==norte):
+    red11='Norte'
+elif (d11==sudeste):
+    red11='Sudeste'
+elif (d11==sul):
+    red11='Sul'
+else:
+    cod11='Inválido'
+#Pacote 12
+if (d12==centro):
+    red12='Centro-Oeste'
+elif (d12==nordeste):
+    red12='Nordeste'
+elif (d12==norte):
+    red12='Norte'
+elif (d12==sudeste):
+    red12='Sudeste'
+elif (d12==sul):
+    red12='Sul'
+else:
+    cod12='Inválido'
+#Pacote 13
+if (d13==centro):
+    red13='Centro-Oeste'
+elif (d13==nordeste):
+    red13='Nordeste'
+elif (d13==norte):
+    red13='Norte'
+elif (d13==sudeste):
+    red13='Sudeste'
+elif (d13==sul):
+    red13='Sul'
+else:
+    cod13='Inválido'
+#Pacote 14
+if (d14==centro):
+    red14='Centro-Oeste'
+elif (d14==nordeste):
+    red14='Nordeste'
+elif (d14==norte):
+    red14='Norte'
+elif (d14==sudeste):
+    red14='Sudeste'
+elif (d14==sul):
+    red14='Sul'
+else:
+    cod14='Inválido'
+#Pacote 15
+if (d15==centro):
+    red15='Centro-Oeste'
+elif (d15==nordeste):
+    red15='Nordeste'
+elif (d15==norte):
+    red15='Norte'
+elif (d15==sudeste):
+    red15='Sudeste'
+elif (d15==sul):
+    red15='Sul'
+else:
+    cod15='Inválido'
+#Programa - Identificador de Produto:
+pr1 =int((code[0][12:15]))
+pr2 =int((code[1][12:15]))
+pr3 =int((code[2][12:15]))
+pr4 =int((code[3][12:15]))
+pr5 =int((code[4][12:15]))
+pr6 =int((code[5][12:15]))
+pr7 =int((code[6][12:15]))
+pr8 =int((code[7][12:15]))
+pr9 =int((code[8][12:15]))
+pr10 =int((code[9][12:15]))
+pr11 =int((code[10][12:15]))
+pr12 =int((code[11][12:15]))
+pr13 =int((code[12][12:15]))
+pr14 =int((code[13][12:15]))
+pr15 =int((code[14][12:15]))
+prt1=0
+prt2=0
+prt3=0
+prt4=0
+prt5=0
+prt6=0
+prt7=0
+prt8=0
+prt9=0
+prt10=0
+prt11=0
+prt12=0
+prt13=0
+prt14=0
+prt15=0
+#Pacote 1
+if (pr1==joias):
+    prt1='Jóias'
+elif (pr1==livros):
+    prt1='Livros'
+elif (pr1==eletronicos):
+    prt1='Eletrônicos'
+elif (pr1==bebidas):
+    prt1='Bebidas'
+elif (pr1==brinquedos):
+    prt1='Brinquedos'
+else:
+    cod1='Inválido'
+#Pacote 2
+if (pr2==joias):
+    prt2='Jóias'
+elif (pr2==livros):
+    prt2='Livros'
+elif (pr2==eletronicos):
+    prt2='Eletrônicos'
+elif (pr2==bebidas):
+    prt2='Bebidas'
+elif (pr2==brinquedos):
+    prt2='Brinquedos'
+else:
+    cod2='Inválido'
+#Pacote 3
+if (pr3==joias):
+    prt3='Jóias'
+elif (pr3==livros):
+    prt3='Livros'
+elif (pr3==eletronicos):
+    prt3='Eletrônicos'
+elif (pr3==bebidas):
+    prt3='Bebidas'
+elif (pr3==brinquedos):
+    prt3='Brinquedos'
+else:
+    cod3='Inválido'
+#Pacote 4
+if (pr4==joias):
+    prt4='Jóias'
+elif (pr4==livros):
+    prt4='Livros'
+elif (pr4==eletronicos):
+    prt4='Eletrônicos'
+elif (pr4==bebidas):
+    prt4='Bebidas'
+elif (pr4==brinquedos):
+    prt4='Brinquedos'
+else:
+    cod4='Inválido'
+#Pacote 5
+if (pr5==joias):
+    prt5='Jóias'
+elif (pr5==livros):
+    prt5='Livros'
+elif (pr5==eletronicos):
+    prt5='Eletrônicos'
+elif (pr5==bebidas):
+    prt5='Bebidas'
+elif (pr5==brinquedos):
+    prt5='Brinquedos'
+else:
+    cod5='Inválido'
+#Pacote 6
+if (pr6==joias):
+    prt6='Jóias'
+elif (pr6==livros):
+    prt6='Livros'
+elif (pr6==eletronicos):
+    prt6='Eletrônicos'
+elif (pr6==bebidas):
+    prt6='Bebidas'
+elif (pr6==brinquedos):
+    prt6='Brinquedos'
+else:
+    cod6='Inválido'
+#Pacote 7
+if (pr7==joias):
+    prt7='Jóias'
+elif (pr7==livros):
+    prt7='Livros'
+elif (pr7==eletronicos):
+    prt7='Eletrônicos'
+elif (pr7==bebidas):
+    prt7='Bebidas'
+elif (pr7==brinquedos):
+    prt7='Brinquedos'
+else:
+    cod7='Inválido'
+#Pacote 8
+if (pr8==joias):
+    prt8='Jóias'
+elif (pr8==livros):
+    prt8='Livros'
+elif (pr8==eletronicos):
+    prt8='Eletrônicos'
+elif (pr8==bebidas):
+    prt8='Bebidas'
+elif (pr8==brinquedos):
+    prt8='Brinquedos'
+else:
+    cod8='Inválido'
+#Pacote 9
+if (pr9==joias):
+    prt9='Jóias'
+elif (pr9==livros):
+    prt9='Livros'
+elif (pr9==eletronicos):
+    prt9='Eletrônicos'
+elif (pr9==bebidas):
+    prt9='Bebidas'
+elif (pr9==brinquedos):
+    prt9='Brinquedos'
+else:
+    cod9='Inválido'
+#Pacote 10
+if (pr10==joias):
+    prt10='Jóias'
+elif (pr10==livros):
+    prt10='Livros'
+elif (pr10==eletronicos):
+    prt10='Eletrônicos'
+elif (pr10==bebidas):
+    prt10='Bebidas'
+elif (pr10==brinquedos):
+    prt10='Brinquedos'
+else:
+    cod10='Inválido'
+#Pacote 11
+if (pr11==joias):
+    prt11='Jóias'
+elif (pr11==livros):
+    prt11='Livros'
+elif (pr11==eletronicos):
+    prt11='Eletrônicos'
+elif (pr11==bebidas):
+    prt11='Bebidas'
+elif (pr11==brinquedos):
+    prt11='Brinquedos'
+else:
+    cod11='Inválido'
+#Pacote 12
+if (pr12==joias):
+    prt12='Jóias'
+elif (pr12==livros):
+    prt12='Livros'
+elif (pr12==eletronicos):
+    prt12='Eletrônicos'
+elif (pr12==bebidas):
+    prt12='Bebidas'
+elif (pr12==brinquedos):
+    prt12='Brinquedos'
+else:
+    cod12='Inválido'
+#Pacote 13
+if (pr13==joias):
+    prt13='Jóias'
+elif (pr13==livros):
+    prt13='Livros'
+elif (pr13==eletronicos):
+    prt13='Eletrônicos'
+elif (pr13==bebidas):
+    prt13='Bebidas'
+elif (pr13==brinquedos):
+    prt13='Brinquedos'
+else:
+    cod13='Inválido'
+#Pacote 14
+if (pr14==joias):
+    prt14='Jóias'
+elif (pr14==livros):
+    prt14='Livros'
+elif (pr14==eletronicos):
+    prt14='Eletrônicos'
+elif (pr14==bebidas):
+    prt14='Bebidas'
+elif (pr14==brinquedos):
+    prt14='Brinquedos'
+else:
+    cod14='Inválido'
+#Pacote 15
+if (pr15==joias):
+    prt15='Jóias'
+elif (pr15==livros):
+    prt15='Livros'
+elif (pr15==eletronicos):
+    prt15='Eletrônicos'
+elif (pr15==bebidas):
+    prt15='Bebidas'
+elif (pr15==brinquedos):
+    prt15='Brinquedos'
+else:
+    cod15='Inválido'
+#Programa - Identificador de Vendedor:
+vend1 =int((code[0][9:12]))
+vend2 =int((code[1][9:12]))
+vend3 =int((code[2][9:12]))
+vend4 =int((code[3][9:12]))
+vend5 =int((code[4][9:12]))
+vend6 =int((code[5][9:12]))
+vend7 =int((code[6][9:12]))
+vend8 =int((code[7][9:12]))
+vend9 =int((code[8][9:12]))
+vend10 =int((code[9][9:12]))
+vend11 =int((code[10][9:12]))
+vend12 =int((code[11][9:12]))
+vend13 =int((code[12][9:12]))
+vend14 =int((code[13][9:12]))
+vend15 =int((code[14][9:12]))
+inv=584
+vendd1=0
+vendd2=0
+vendd3=0
+vendd4=0
+vendd5=0
+vendd6=0
+vendd7=0
+vendd8=0
+vendd9=0
+vendd10=0
+vendd11=0
+vendd12=0
+vendd13=0
+vendd14=0
+vendd15=0
+#Invalidação de código:
+if (reg1)==('Centro-Oeste') and (prt1)==('Jóias'):
+    cod1='Inválido'
+else:
+    1==1
+if (reg2)==('Centro-Oeste') and (prt2)==('Jóias'):
+    cod2='Inválido'
+else:
+    1==1
+if (reg3)==('Centro-Oeste') and (prt3)==('Jóias'):
+    cod3='Inválido'
+else:
+    1==1
+if (reg4)==('Centro-Oeste') and (prt4)==('Jóias'):
+    cod4='Inválido'
+else:
+    1==1
+if (reg5)==('Centro-Oeste') and (prt5)==('Jóias'):
+    cod5='Inválido'
+else:
+    1==1
+if (reg6)==('Centro-Oeste') and (prt6)==('Jóias'):
+    cod6='Inválido'
+else:
+    1==1
+if (reg7)==('Centro-Oeste') and (prt7)==('Jóias'):
+    cod7='Inválido'
+else:
+    1==1
+if (reg8)==('Centro-Oeste') and (prt8)==('Jóias'):
+    cod8='Inválido'
+else:
+    1==1
+if (reg9)==('Centro-Oeste') and (prt9)==('Jóias'):
+    cod9='Inválido'
+else:
+    1==1
+if (reg10)==('Centro-Oeste') and (prt10)==('Jóias'):
+    cod10='Inválido'
+else:
+    1==1
+if (reg11)==('Centro-Oeste') and (prt11)==('Jóias'):
+    cod11='Inválido'
+else:
+    1==1
+if (reg12)==('Centro-Oeste') and (prt12)==('Jóias'):
+    cod12='Inválido'
+else:
+    1==1
+if (reg13)==('Centro-Oeste') and (prt13)==('Jóias'):
+    cod13='Inválido'
+else:
+    1==1
+if (reg14)==('Centro-Oeste') and (prt14)==('Jóias'):
+    cod14='Inválido'
+else:
+    1==1
+if (reg15)==('Centro-Oeste') and (prt15)==('Jóias'):
+    cod15='Inválido'
+else:
+    1==1
+#Invalidação de Vendedor:
+if (vend1)==(inv):
+    cod1='Inválido'
+else:
+    1==1
+if (vend2)==(inv):
+    cod2='Inválido'
+else:
+    1==1
+if (vend3)==(inv):
+    cod3='Inválido'
+else:
+    1==1
+if (vend4)==(inv):
+    cod4='Inválido'
+else:
+    1==1
+if (vend5)==(inv):
+    cod5='Inválido'
+else:
+    1==1
+if (vend6)==(inv):
+    cod6='Inválido'
+else:
+    1==1
+if (vend7)==(inv):
+    cod7='Inválido'
+else:
+    1==1
+if (vend8)==(inv):
+    cod8='Inválido'
+else:
+    1==1
+if (vend9)==(inv):
+    cod9='Inválido'
+else:
+    1==1
+if (vend10)==(inv):
+    cod10='Inválido'
+else:
+    1==1
+if (vend11)==(inv):
+    cod11='Inválido'
+else:
+    1==1
+if (vend12)==(inv):
+    cod12='Inválido'
+else:
+    1==1
+if (vend13)==(inv):
+    cod13='Inválido'
+else:
+    1==1
+if (vend14)==(inv):
+    cod14='Inválido'
+else:
+    1==1
+if (vend15)==(inv):
+    cod15='Inválido'
+else:
+    1==1
+#Invalidação de código (Centro-Oeste - Jóias):
+if (reg1)==('Centro-Oeste') and (prt1)==('Jóias'):
+    cod1='Inválido'
+else:
+    1==1
+if (reg2)==('Centro-Oeste') and (prt2)==('Jóias'):
+    cod2='Inválido'
+else:
+    1==1
+if (reg3)==('Centro-Oeste') and (prt3)==('Jóias'):
+    cod3='Inválido'
+else:
+    1==1
+if (reg4)==('Centro-Oeste') and (prt4)==('Jóias'):
+    cod4='Inválido'
+else:
+    1==1
+if (reg5)==('Centro-Oeste') and (prt5)==('Jóias'):
+    cod5='Inválido'
+else:
+    1==1
+if (reg6)==('Centro-Oeste') and (prt6)==('Jóias'):
+    cod6='Inválido'
+else:
+    1==1
+if (reg7)==('Centro-Oeste') and (prt7)==('Jóias'):
+    cod7='Inválido'
+else:
+    1==1
+if (reg8)==('Centro-Oeste') and (prt8)==('Jóias'):
+    cod8='Inválido'
+else:
+    1==1
+if (reg9)==('Centro-Oeste') and (prt9)==('Jóias'):
+    cod9='Inválido'
+else:
+    1==1
+if (reg10)==('Centro-Oeste') and (prt10)==('Jóias'):
+    cod10='Inválido'
+else:
+    1==1
+if (reg11)==('Centro-Oeste') and (prt11)==('Jóias'):
+    cod11='Inválido'
+else:
+    1==1
+if (reg12)==('Centro-Oeste') and (prt12)==('Jóias'):
+    cod12='Inválido'
+else:
+    1==1
+if (reg13)==('Centro-Oeste') and (prt13)==('Jóias'):
+    cod13='Inválido'
+else:
+    1==1
+if (reg14)==('Centro-Oeste') and (prt14)==('Jóias'):
+    cod14='Inválido'
+else:
+    1==1
+if (reg15)==('Centro-Oeste') and (prt15)==('Jóias'):
+    cod15='Inválido'
+else:
+    1==1
+print('VÁLIDOS: |     CÓDIGO       |   ORIGEM  | DESTINO  |  PRODUTO  | VENDEDOR')
+#Lista Final (Filtro):
+if (cod1)=='Válido' and (red1)=='Norte':
+    print('Pacote 1  ',code[0],'   ',reg1,'   ',red1,'   ',prt1,'   ',vend1)
+else:
+    1==1
+if (cod2)=='Válido' and (red2)=='Norte':
+    print('Pacote 2  ',code[1],'   ',reg2,'   ',red2,'   ',prt2,'   ',vend2)
+else:
+    1==1
+if (cod3)=='Válido' and (red2)=='Norte':
+    print('Pacote 3  ',code[2],'   ',reg3,'   ',red3,'   ',prt3,'   ',vend3)
+else:
+    1==1
+if (cod4)=='Válido' and (red4)=='Norte':
+    print('Pacote 4  ',code[3],'   ',reg4,'   ',red4,'   ',prt4,'   ',vend4)
+else:
+    1==1
+if (cod5)=='Válido' and (red5)=='Norte':
+    print('Pacote 5  ',code[4],'   ',reg5,'   ',red5,'   ',prt5,'   ',vend5)
+else:
+    1==1
+if (cod6)=='Válido' and (red6)=='Norte':
+    print('Pacote 6  ',code[5],'   ',reg6,'   ',red6,'   ',prt6,'   ',vend6)
+else:
+    1==1
+if (cod7)=='Válido' and (red7)=='Norte':
+    print('Pacote 7  ',code[6],'    ',reg7,'    ',red7,'   ',prt7,'   ',vend7)
+else:
+    1==1
+if (cod8)=='Válido' and (red8)=='Norte':
+    print('Pacote 8  ',code[7],'   ',reg8,'   ',red8,'   ',prt8,'   ',vend8)
+else:
+    1==1
+if (cod9)=='Válido' and (red9)=='Norte':
+    print('Pacote 9  ',code[8],'   ',reg9,'   ',red9,'   ',prt9,'   ',vend9)
+else:
+    1==1
+if (cod10)=='Válido' and (red10)=='Norte':
+    print('Pacote 10  ',code[9],'   ',reg10,'   ',red10,'   ',prt10,'   ',vend10)
+else:
+    1==1
+if (cod11)=='Válido' and (red11)=='Norte':
+    print('Pacote 11  ',code[10],'   ',reg11,'   ',red11,'   ',prt11,'   ',vend11)
+else:
+    1==1
+if (cod12)=='Válido' and (red12)=='Norte':
+    print('Pacote 12  ',code[11],'   ',reg12,'   ',red12,'   ',prt12,'   ',vend12)
+else:
+    1==1
+if (cod13)=='Válido' and (red13)=='Norte':
+    print('Pacote 13  ',code[12],'   ',reg13,'   ',red13,'   ',prt13,'   ',vend13)
+else:
+    1==1
+if (cod14)=='Válido' and (red14)=='Norte':
+    print('Pacote 14  ',code[13],'   ',reg14,'   ',red14,'   ',prt14,'   ',vend14)
+else:
+    1==1
+if (cod15)=='Válido' and (red15)=='Norte':
+    print('Pacote 15  ',code[14],'   ',reg15,'   ',red15,'   ',prt15,'   ',vend15)
+else:
+    1==1
+#Sul
+if (cod1)=='Válido' and (red1)=='Sul':
+    print('Pacote 1  ',code[0],'   ',reg1,'   ',red1,'   ',prt1,'   ',vend1)
+else:
+    1==1
+if (cod2)=='Válido' and (red2)=='Sul':
+    print('Pacote 2  ',code[1],'   ',reg2,'   ',red2,'   ',prt2,'   ',vend2)
+else:
+    1==1
+if (cod3)=='Válido' and (red2)=='Sul':
+    print('Pacote 3  ',code[2],'   ',reg3,'   ',red3,'   ',prt3,'   ',vend3)
+else:
+    1==1
+if (cod4)=='Válido' and (red4)=='Sul':
+    print('Pacote 4  ',code[3],'   ',reg4,'   ',red4,'   ',prt4,'   ',vend4)
+else:
+    1==1
+if (cod5)=='Válido' and (red5)=='Sul':
+    print('Pacote 5  ',code[4],'   ',reg5,'   ',red5,'   ',prt5,'   ',vend5)
+else:
+    1==1
+if (cod6)=='Válido' and (red6)=='Sul':
+    print('Pacote 6  ',code[5],'   ',reg6,'   ',red6,'   ',prt6,'   ',vend6)
+else:
+    1==1
+if (cod7)=='Válido' and (red7)=='Sul':
+    print('Pacote 7  ',code[6],'    ',reg7,'    ',red7,'   ',prt7,'   ',vend7)
+else:
+    1==1
+if (cod8)=='Válido' and (red8)=='Sul':
+    print('Pacote 8  ',code[7],'   ',reg8,'   ',red8,'   ',prt8,'   ',vend8)
+else:
+    1==1
+if (cod9)=='Válido' and (red9)=='Sul':
+    print('Pacote 9  ',code[8],'   ',reg9,'   ',red9,'   ',prt9,'   ',vend9)
+else:
+    1==1
+if (cod10)=='Válido' and (red10)=='Sul':
+    print('Pacote 10  ',code[9],'   ',reg10,'   ',red10,'   ',prt10,'   ',vend10)
+else:
+    1==1
+if (cod11)=='Válido' and (red11)=='Sul':
+    print('Pacote 11  ',code[10],'   ',reg11,'   ',red1,'   ',prt1,'   ',vend11)
+else:
+    1==1
+if (cod12)=='Válido' and (red12)=='Sul':
+    print('Pacote 12  ',code[11],'   ',reg12,'   ',red12,'   ',prt12,'   ',vend12)
+else:
+    1==1
+if (cod13)=='Válido' and (red13)=='Sul':
+    print('Pacote 13 ',code[12],'   ',reg13,'   ',red13,'     ',prt13,'  ',vend13)
+else:
+    1==1
+if (cod14)=='Válido' and (red14)=='Sul':
+    print('Pacote 14  ',code[13],'   ',reg14,'   ',red14,'   ',prt14,'   ',vend14)
+else:
+    1==1
+if (cod15)=='Válido' and (red15)=='Sul':
+    print('Pacote 15  ',code[14],'   ',reg15,'   ',red15,'   ',prt15,'   ',vend15)
+else:
+    1==1
+#Sudeste
+if (cod1)=='Válido' and (red1)=='Sudeste':
+    print('Pacote 1  ',code[0],'   ',reg1,'   ',red1,'   ',prt1,'   ',vend1)
+else:
+    1==1
+if (cod2)=='Válido' and (red2)=='Sudeste':
+    print('Pacote 2  ',code[1],'   ',reg2,'   ',red2,'   ',prt2,'   ',vend2)
+else:
+    1==1
+if (cod3)=='Válido' and (red2)=='Sudeste':
+    print('Pacote 3  ',code[2],'   ',reg3,'   ',red3,'   ',prt3,'   ',vend3)
+else:
+    1==1
+if (cod4)=='Válido' and (red4)=='Sudeste':
+    print('Pacote 4  ',code[3],'   ',reg4,'   ',red4,'   ',prt4,'   ',vend4)
+else:
+    1==1
+if (cod5)=='Válido' and (red5)=='Sudeste':
+    print('Pacote 5  ',code[4],' ',reg5,'',red5,'   ',prt5,'   ',vend5)
+else:
+    1==1
+if (cod6)=='Válido' and (red6)=='Sudeste':
+    print('Pacote 6  ',code[5],'   ',reg6,'   ',red6,'   ',prt6,'   ',vend6)
+else:
+    1==1
+if (cod7)=='Válido' and (red7)=='Sudeste':
+    print('Pacote 7  ',code[6],'    ',reg7,'    ',red7,'   ',prt7,'   ',vend7)
+else:
+    1==1
+if (cod8)=='Válido' and (red8)=='Sudeste':
+    print('Pacote 8  ',code[7],'   ',reg8,'   ',red8,'   ',prt8,'   ',vend8)
+else:
+    1==1
+if (cod9)=='Válido' and (red9)=='Sudeste':
+    print('Pacote 9  ',code[8],'   ',reg9,'   ',red9,'   ',prt9,'   ',vend9)
+else:
+    1==1
+if (cod10)=='Válido' and (red10)=='Sudeste':
+    print('Pacote 10  ',code[9],'   ',reg10,'   ',red10,'   ',prt10,'   ',vend10)
+else:
+    1==1
+if (cod11)=='Válido' and (red11)=='Sudeste':
+    print('Pacote 11 ',code[10],'    ',reg11,'    ',red11,' ',prt1,'   ',vend11)
+else:
+    1==1
+if (cod12)=='Válido' and (red12)=='Sudeste':
+    print('Pacote 12 ',code[11],' ',reg12,'',red12,' ',prt12,'      ',vend12)
+else:
+    1==1
+if (cod13)=='Válido' and (red13)=='Sudeste':
+    print('Pacote 13 ',code[12],'   ',reg13,'   ',red13,'     ',prt13,'  ',vend13)
+else:
+    1==1
+if (cod14)=='Válido' and (red14)=='Sudeste':
+    print('Pacote 14  ',code[13],'   ',reg14,'   ',red14,'   ',prt14,'   ',vend14)
+else:
+    1==1
+if (cod15)=='Válido' and (red15)=='Sudeste':
+    print('Pacote 15  ',code[14],'   ',reg15,'   ',red15,'   ',prt15,'   ',vend15)
+else:
+    1==1
+#Nordeste
+if (cod1)=='Válido' and (red1)=='Nordeste':
+    print('Pacote 1  ',code[0],'   ',reg1,'   ',red1,'   ',prt1,'   ',vend1)
+else:
+    1==1
+if (cod2)=='Válido' and (red2)=='Nordeste':
+    print('Pacote 2  ',code[1],'   ',reg2,'   ',red2,'   ',prt2,'   ',vend2)
+else:
+    1==1
+if (cod3)=='Válido' and (red2)=='Nordeste':
+    print('Pacote 3  ',code[2],'   ',reg3,'   ',red3,'   ',prt3,'   ',vend3)
+else:
+    1==1
+if (cod4)=='Válido' and (red4)=='Nordeste':
+    print('Pacote 4  ',code[3],'   ',reg4,'   ',red4,'   ',prt4,'   ',vend4)
+else:
+    1==1
+if (cod5)=='Válido' and (red5)=='Nordeste':
+    print('Pacote 5  ',code[4],' ',reg5,'',red5,'   ',prt5,'   ',vend5)
+else:
+    1==1
+if (cod6)=='Válido' and (red6)=='Nordeste':
+    print('Pacote 6  ',code[5],' ',reg6,'',red6,'',prt6,'  ',vend6)
+else:
+    1==1
+if (cod7)=='Válido' and (red7)=='Nordeste':
+    print('Pacote 7  ',code[6],'    ',reg7,'    ',red7,'   ',prt7,'   ',vend7)
+else:
+    1==1
+if (cod8)=='Válido' and (red8)=='Nordeste':
+    print('Pacote 8  ',code[7],'   ',reg8,'   ',red8,'   ',prt8,'   ',vend8)
+else:
+    1==1
+if (cod9)=='Válido' and (red9)=='Nordeste':
+    print('Pacote 9  ',code[8],'   ',reg9,'   ',red9,'   ',prt9,'   ',vend9)
+else:
+    1==1
+if (cod10)=='Válido' and (red10)=='Nordeste':
+    print('Pacote 10  ',code[9],'   ',reg10,'   ',red10,'   ',prt10,'   ',vend10)
+else:
+    1==1
+if (cod11)=='Válido' and (red11)=='Nordeste':
+    print('Pacote 11  ',code[10],'   ',reg11,'   ',red11,'   ',prt1,'   ',vend11)
+else:
+    1==1
+if (cod12)=='Válido' and (red12)=='Nordeste':
+    print('Pacote 12  ',code[11],'   ',reg12,'   ',red12,'   ',prt12,'   ',vend12)
+else:
+    1==1
+if (cod13)=='Válido' and (red13)=='Nordeste':
+    print('Pacote 13 ',code[12],'   ',reg13,'   ',red13,'     ',prt13,'  ',vend13)
+else:
+    1==1
+if (cod14)=='Válido' and (red14)=='Nordeste':
+    print('Pacote 14  ',code[13],'   ',reg14,'   ',red14,'   ',prt14,'   ',vend14)
+else:
+    1==1
+if (cod15)=='Válido' and (red15)=='Nordeste':
+    print('Pacote 15 ',code[14],' ',reg15,'',red15,'',prt15,'      ',vend15)
+else:
+    1==1
+#Centro-Oeste
+if (cod1)=='Válido' and (red1)=='Centro-Oeste':
+    print('Pacote 1  ',code[0],'   ',reg1,'   ',red1,'   ',prt1,'   ',vend1)
+else:
+    1==1
+if (cod2)=='Válido' and (red2)=='Centro-Oeste':
+    print('Pacote 2  ',code[1],'   ',reg2,'   ',red2,'   ',prt2,'   ',vend2)
+else:
+    1==1
+if (cod3)=='Válido' and (red2)=='Centro-Oeste':
+    print('Pacote 3  ',code[2],'   ',reg3,'   ',red3,'   ',prt3,'   ',vend3)
+else:
+    1==1
+if (cod4)=='Válido' and (red4)=='Centro-Oeste':
+    print('Pacote 4  ',code[3],'    ',reg4,'     ',red4,'',prt4,'   ',vend4)
+else:
+    1==1
+if (cod5)=='Válido' and (red5)=='Centro-Oeste':
+    print('Pacote 5  ',code[4],' ',reg5,'',red5,'   ',prt5,'   ',vend5)
+else:
+    1==1
+if (cod6)=='Válido' and (red6)=='Centro-Oeste':
+    print('Pacote 6  ',code[5],' ',reg6,'',red6,'',prt6,'  ',vend6)
+else:
+    1==1
+if (cod7)=='Válido' and (red7)=='Centro-Oeste':
+    print('Pacote 7  ',code[6],'    ',reg7,'    ',red7,'   ',prt7,'   ',vend7)
+else:
+    1==1
+if (cod8)=='Válido' and (red8)=='Centro-Oeste':
+    print('Pacote 8  ',code[7],'   ',reg8,'   ',red8,'   ',prt8,'   ',vend8)
+else:
+    1==1
+if (cod9)=='Válido' and (red9)=='Centro-Oeste':
+    print('Pacote 9  ',code[8],'   ',reg9,'   ',red9,'   ',prt9,'   ',vend9)
+else:
+    1==1
+if (cod10)=='Válido' and (red10)=='Centro-Oeste':
+    print('Pacote 10  ',code[9],'   ',reg10,'   ',red10,'   ',prt10,'   ',vend10)
+else:
+    1==1
+if (cod11)=='Válido' and (red11)=='Centro-Oeste':
+    print('Pacote 11  ',code[10],'   ',reg11,'   ',red11,'   ',prt1,'   ',vend11)
+else:
+    1==1
+if (cod12)=='Válido' and (red12)=='Centro-Oeste':
+    print('Pacote 12  ',code[11],'   ',reg12,'   ',red12,'   ',prt12,'   ',vend12)
+else:
+    1==1
+if (cod13)=='Válido' and (red13)=='Centro-Oeste':
+    print('Pacote 13 ',code[12],'   ',reg13,'   ',red13,'     ',prt13,'  ',vend13)
+else:
+    1==1
+if (cod14)=='Válido' and (red14)=='Centro-Oeste':
+    print('Pacote 14 ',code[13],'    ',reg14,'     ',red14,'',prt14,'     ',vend14)
+else:
+    1==1
+if (cod15)=='Válido' and (red15)=='Centro-Oeste':
+    print('Pacote 15 ',code[14],' ',reg15,'',red15,'',prt15,'      ',vend15)
+else:
+    1==1
+#Brinquedos Sulistas:
+s=0
+if (cod1) =='Válido' and (red1)=='Sul' and (prt1)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod2) =='Válido' and (red2)=='Sul' and (prt2)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod3) =='Válido' and (red3)=='Sul' and (prt3)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod4) =='Válido' and (red4)=='Sul' and (prt4)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod5) =='Válido' and (red5)=='Sul' and (prt5)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod6) =='Válido' and (red6)=='Sul' and (prt6)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod7) =='Válido' and (red7)=='Sul' and (prt7)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod8) =='Válido' and (red8)=='Sul' and (prt8)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod9) =='Válido' and (red9)=='Sul' and (prt9)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod10) =='Válido' and (red10)=='Sul' and (prt10)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod11) =='Válido' and (red11)=='Sul' and (prt11)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod12) =='Válido' and (red12)=='Sul' and (prt12)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod13) =='Válido' and (red13)=='Sul' and (prt13)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod14) =='Válido' and (red14)=='Sul' and (prt14)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+if (cod15) =='Válido' and (red15)=='Sul' and (prt15)=='Brinquedos':
+    s=s+1
+else:
+    1==1
+print('')
+print('Pacotes válidos com origem na região Sul e brinquedos em seu conteúdo:',s)
+#Lista de Vendedores (Válidos):
+if cod1=='Válido':
+    vends1=((code[0][9:12]))
+else:
+    vends1='0'
+#2
+if cod2=='Válido':
+    vends2=((code[1][9:12]))
+else:
+    vends2='0'
+#3
+if cod3=='Válido':
+    vends3=((code[2][9:12]))
+else:
+    vends3='0'
+#4
+if cod4=='Válido':
+    vends4=((code[3][9:12]))
+else:
+    vends4='0'
+#5
+if cod5=='Válido':
+    vends5=((code[4][9:12]))
+else:
+    vends5='0'
+#6
+if cod6=='Válido':
+    vends6=((code[5][9:12]))
+else:
+    vends6='0'
+#7
+if cod7=='Válido':
+    vends7=((code[6][9:12]))
+else:
+    vends7='0'
+#8
+if cod8=='Válido':
+    vends8=((code[7][9:12]))
+else:
+    vends8='0'
+#9
+if cod9=='Válido':
+    vends9=((code[8][9:12]))
+else:
+    vends9='0'
+#10
+if cod10=='Válido':
+    vends10=((code[9][9:12]))
+else:
+    vends10='0'
+#11
+if cod11=='Válido':
+    vends11=((code[10][9:12]))
+else:
+    vends11='0'
+#12
+if cod12=='Válido':
+    vends12=((code[11][9:12]))
+else:
+    vends12='0'
+#13
+if cod13=='Válido':
+    vends13=((code[12][9:12]))
+else:
+    vends13='0'
+#14
+if cod14=='Válido':
+    vends14=((code[13][9:12]))
+else:
+    vends14='0'
+#15
+if cod15=='Válido':
+    vends15=((code[14][9:12]))
+else:
+    vends15='0'
+valid=[]
+valid.append(vends1)
+valid.append(vends2)
+valid.append(vends3)
+valid.append(vends4)
+valid.append(vends5)
+valid.append(vends6)
+valid.append(vends7)
+valid.append(vends8)
+valid.append(vends9)
+valid.append(vends10)
+valid.append(vends11)
+valid.append(vends12)
+valid.append(vends13)
+valid.append(vends14)
+valid.append(vends15)
+vendedores=[]
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+if '0' in valid:
+    valid.remove('0')
+valid.sort
+lists=[]
+lists.append(valid.count(vends1))
+lists.append(valid.count(vends2))
+lists.append(valid.count(vends3))
+lists.append(valid.count(vends4))
+lists.append(valid.count(vends5))
+lists.append(valid.count(vends6))
+lists.append(valid.count(vends7))
+lists.append(valid.count(vends8))
+lists.append(valid.count(vends9))
+lists.append(valid.count(vends10))
+lists.append(valid.count(vends11))
+lists.append(valid.count(vends12))
+lists.append(valid.count(vends13))
+lists.append(valid.count(vends14))
+lists.append(valid.count(vends15))
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+if 0 in lists:
+    lists.remove(0)
+lists.sort
+valids=[]
+listas=[]
+for i in valid:
+    if i not in valids:
+        valids.append(i)
+for i in lists:
+    if i not in listas:
+        listas.append(i)
+print('')
+print('VENDEDORES:    ',valids)
+print('VENDAS VÁLIDAS:',listas)
+print('')
+print('(Valores dados em ordem respectiva)')
